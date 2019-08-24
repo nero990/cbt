@@ -1,0 +1,204 @@
+*{ margin: 0; font-family: cambria;	}
+html{
+	background-color: #212121;
+}
+.wrapper{
+	background-color: #c9dfe4;
+	min-height: 600px;
+	color: #202292;
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+.header{
+	width: 100%;
+	padding: 10px;
+}
+.nav{
+	float: left;
+	width: 17%;
+	height: 550px;
+	background-color: #23282d;
+	color: #FFF;
+	margin-bottom: 10px;
+}
+.nav p{
+	padding: 5px 20px;
+	margin: 0;
+}
+.nav a{
+	color: #CCC;
+	text-decoration: none;
+	font-size: 16px;
+}
+.nav p:hover{
+	color: #00b9eb;
+	background: #191e23;
+	background-image: url("../images/triangle.png");
+	background-repeat: no-repeat;
+	background-position: 191px;
+}
+.nav p.cap{
+	background-color: #0073aa;
+	background-image: url("../images/triangle.png");
+	background-repeat: no-repeat;
+	background-position: 191px;
+	color: #FFF;
+}
+.nav .submenu{
+	display: none;
+	list-style: none;
+	color: #CCC;
+}
+.nav .active{
+	display: block;
+}
+.nav .submenu li{
+	font-size: 15px;
+}
+.nav .submenu li:hover{
+	color: #00b9eb;
+}
+.nav .submenu li.cap{
+	color: #FFF;
+	font-weight: bold;
+}
+.main{
+	float: right;
+	width: 80%;
+	margin-right: 20px;
+	padding: 10px;
+	min-height: 550px;
+	background-color: #FFF;
+	color: #000;
+}
+.header .text{
+	clear: both;
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	color: #fb0303;
+	text-shadow: 1px 1px 1px #969797;
+}
+h1{
+	margin: 0;
+	font-size: 40px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #969797;
+}
+h2{
+	margin: 0;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #969797;
+}
+.cand-details{
+	float: right;
+	width: 50%;
+	font-family: cambria;
+	font-size: 17px;
+}
+.cand-details th{
+	text-align: right;
+	padding-right: 5px;
+}
+.cand-details td{
+	color: #fb0303;
+	font-weight: bold;
+}
+.footer{
+	clear: both;
+	padding: 2px 10px;
+	font-size: 14px;
+	font-style: italic;
+	font-family: cambria;	
+	background-color: #000;
+	color: #c6ff00;
+}
+.error_msg{
+	color: #F00;
+	font-size: 15px;
+	font-style: italic;
+}
+label.error {
+	font-size: 1em;
+	color: #F00;
+	font-style: italic;
+	font-weight: normal;
+	display: block;
+}
+input.error, select.error, textarea.error{
+	background: #fdc7d1;
+	border: 1px solid red;
+}
+.quest_details{
+	font-size: 17px;
+}
+.quest_details th{
+	text-align: right;
+	border-top: 1px solid #000;
+}
+.quest_details td{
+	padding: 2px 10px;
+	border-top: 1px solid #000;
+}
+.msg{
+	font-size: 17px;
+}
+.note{
+	color: #F00;
+	font-size: 16px;
+	font-style: italic;
+}
+.note span{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.question-div{
+	max-height: 600px;
+	overflow-y: auto;
+}
+.question{
+	border-bottom: 1px dotted #000;
+	margin-bottom: 15px;
+}
+.question th{
+	text-align: right;
+}
+.ans{
+	background-color: yellow;
+}
+.question .end{
+	border-bottom: 2px dotted #000;
+	margin-bottom: 15px;
+}
+.welcome_msg{
+	font-size: 18px;
+	font-style: italic;
+	color: #fb0303;
+}
+.timer{
+	font-weight: bold;
+	font-size: 19px;
+	text-align: center;
+}
+.timer span{
+	color: #fb0303;
+}
+.print-button{
+	color: #000;
+	margin-top: 10px;
+}
+.warning-msg{
+	color: #F00; 
+	font-size: 20px; 
+	font-style: italic;
+	font-weight: bold; 
+	margin-left: 10px;
+}
+.student-list{
+	display: block;
+	overflow-y: auto;
+	max-height: 350px;
+	
+}
